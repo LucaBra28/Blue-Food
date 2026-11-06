@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+.build/
+
+# Swift Package Manager
+.swiftpm/
+
+# PocketBase local data & secrets
+backend/pb_data/
+**/secrets/
+*.p8
+*.pem
+.env
+.env.*
